@@ -1,0 +1,101 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color: rgb(8, 8, 8);
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(/loja/img/moto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 40px;
+    background-color: rgb(14, 12, 12);
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 1%;
+    padding: 1%;
+    margin: 0;
+    }
+
+   li a{
+        color: white;
+        text-decoration: solid;
+    }
+
+
+#capacetes{
+    justify-content: center;
+    display: flex;
+    margin: 10%;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(14, 12, 12);
+    text-decoration: solid;
+    border-style:  double  ;
+    border-color: rgb(23, 243, 243);
+    border: 20%;
+    margin: 9%;
+    
+   
+}
+img{
+    margin: 50px;
+    border-radius: 50%;
+    border-style: groove;
+    border-color: aqua;
+  
+}
+p{
+    justify-content: space-between;
+    margin: 15px;
+    list-style-type: none;
+    color: rgb(255, 255, 255);
+}
+
+#h2{ 
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+background-color: rgb(2, 2, 2);
+border-color: rgb(15, 236, 70);
+border-style: dashed;
+
+}
+
+.money{
+    color: green;
+    text-decoration: line-through;
+    
+}
+
+#container{
+    padding: 0px 25px;
+    align-items: center;
+
+}
+
+#vermais{
+    text-decoration: solid;
+    color: black;
+    padding-left: 45%;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.esgotado{
+    color: red;
+}
+
+li a:hover{
+    color: rgb(135, 206, 42);
+}
+
+
